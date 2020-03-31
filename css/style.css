@@ -1,4 +1,10 @@
-body {background-color:#EAF6F6; width: fit-content;}
+/**********TAG SELECTORS**********/
+body {background-color:#EAF6F6;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1530549387789-4c1017266635?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);}
     hr {border-style: none;
     border-top-style: dotted;
     border-color: grey;
@@ -7,3 +13,9 @@ body {background-color:#EAF6F6; width: fit-content;}
     h3 {color: chartreuse;}
     h1{color: chartreuse;}
     h2{color: chartreuse;}
+        tbody{font-size: x-large;
+            color: yellow;}
+    /**********ID SELECTORS**********/
+    #heading{color: gold;
+    }
+    a:hover{background-color: powderblue;}
